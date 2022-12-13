@@ -4,7 +4,7 @@
 	Component	: Test 
 	Configuration 	: Debug
 	Model Element	: Vertex_Calculator
-//!	Generated Date	: Tue, 13, Dec 2022  
+//!	Generated Date	: Wed, 14, Dec 2022  
 	File Path	: Test\Debug\Vertex_Calculator.h
 *********************************************************************/
 
@@ -20,7 +20,11 @@
 /*## auto_generated */
 #include <oxf\Ric.h>
 /*#[ ignore */
-#define Vertex_Calculator_Timeout_Active_id 1
+#define Vertex_Calculator_Timeout_Active_id 3
+
+#define Vertex_Calculator_Timeout_Display_id 2
+
+#define Vertex_Calculator_Timeout_Drawing_id 1
 /*#]*/
 
 /*## package Default */
@@ -75,6 +79,14 @@ void Vertex_Calculator_Destroy(Vertex_Calculator* const me);
 /*## statechart_method */
 int Vertex_Calculator_rootState_IN(const Vertex_Calculator* const me);
 
+/* Drawing: */
+/*## statechart_method */
+int Vertex_Calculator_Drawing_IN(const Vertex_Calculator* const me);
+
+/* Display: */
+/*## statechart_method */
+int Vertex_Calculator_Display_IN(const Vertex_Calculator* const me);
+
 /* Active: */
 /*## statechart_method */
 int Vertex_Calculator_Active_IN(const Vertex_Calculator* const me);
@@ -82,7 +94,9 @@ int Vertex_Calculator_Active_IN(const Vertex_Calculator* const me);
 /*#[ ignore */
 enum Vertex_Calculator_Enum {
     Vertex_Calculator_RiCNonState = 0,
-    Vertex_Calculator_Active = 1
+    Vertex_Calculator_Drawing = 1,
+    Vertex_Calculator_Display = 2,
+    Vertex_Calculator_Active = 3
 };
 /*#]*/
 

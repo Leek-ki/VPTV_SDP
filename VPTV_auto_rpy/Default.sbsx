@@ -12,18 +12,18 @@
 			<_id type="a">GUID 6795cd77-ef74-4e78-97bd-87247fdf376f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:0:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:0:58</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:25:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:35:38</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">12.13.2022::15:0:58</weakCGTime>
+			<weakCGTime type="a">12.13.2022::15:25:1</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_defaultComposite type="s">GUID b67f9115-6860-47ed-a5b9-b2e5efd8bb31</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">11.26.2022::17:15:44</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 8df1d449-d8a3-47fc-8c2c-8d4f2e2ed40c</value>
-				<value>GUID 45931546-ee8e-4286-b12d-683154c17d8b</value>
 				<value>GUID 93356f44-7d5b-4ec5-b473-e1f7ebf127ab</value>
+				<value>GUID 45931546-ee8e-4286-b12d-683154c17d8b</value>
 				<value>GUID b67f9115-6860-47ed-a5b9-b2e5efd8bb31</value>
 				<value>GUID 1cc6e726-f09a-4e66-b1ce-3e238f3a83be</value>
 				<value>GUID 38edbc04-47b2-4e73-b775-7331e3ece1a6</value>
@@ -36,13 +36,6 @@
 			<_modifiedTimeWeak type="a">12.13.2022::14:33:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.13.2022::14:33:31</_modifiedTime>
 		</IConstraint>
-		<IComment type="e">
-			<_id type="a">GUID 45931546-ee8e-4286-b12d-683154c17d8b</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">comment_10</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::14:33:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::14:33:52</_modifiedTime>
-		</IComment>
 		<IRequirement type="e">
 			<_id type="a">GUID 93356f44-7d5b-4ec5-b473-e1f7ebf127ab</_id>
 			<_myState type="a">10240</_myState>
@@ -58,6 +51,13 @@
 }%0D
 </_body>
 		</IRequirement>
+		<IComment type="e">
+			<_id type="a">GUID 45931546-ee8e-4286-b12d-683154c17d8b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">comment_10</_name>
+			<_modifiedTimeWeak type="a">12.13.2022::14:33:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::14:33:52</_modifiedTime>
+		</IComment>
 		<IClass type="e">
 			<_id type="a">GUID b67f9115-6860-47ed-a5b9-b2e5efd8bb31</_id>
 			<_myState type="a">40960</_myState>
@@ -76,7 +76,7 @@
 			<_id type="a">GUID 1cc6e726-f09a-4e66-b1ce-3e238f3a83be</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Vertex_Calculator</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:12:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -84,9 +84,9 @@
 					<_hid type="a">GUID a26702f0-ecaf-4c55-b408-da112aeef27f</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<_lastID type="a">32</_lastID>
-			<weakCGTime type="a">12.13.2022::15:12:57</weakCGTime>
+			<weakCGTime type="a">12.13.2022::15:44:52</weakCGTime>
 			<strongCGTime type="a">11.26.2022::16:36:44</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -237,8 +237,8 @@ me-&gt;count = 0;%0D
 \viewkind4\uc1\pard\lang1042\f0\fs18 Operation_17\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">12.13.2022::11:53:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:25:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:25:1</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -259,15 +259,15 @@ me-&gt;count = 0;%0D
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">float C = me-&gt;pinion/me-&gt;ratio;%0D
-float TAC = -1*C*me-&gt;PI/((float)180.0); // radian%0D
+				<_bodyData type="a">float C = (me-&gt;pinion)/(me-&gt;ratio);%0D
+float TAC = -1*C*(me-&gt;PI)/((float)180.0); // radian%0D
 float M_C = me-&gt;L101/tanf(TAC);%0D
-float L_C = M_C+me-&gt;W101/2;%0D
-float R_C = M_C-me-&gt;W101/2;%0D
+float L_C = M_C+(me-&gt;W101)/2;%0D
+float R_C = M_C-(me-&gt;W101)/2;%0D
 float TAL = atan2f(me-&gt;L101,-1*L_C);%0D
 float TAR = atan2f(me-&gt;L101,-1*R_C);%0D
-float Radius_of_Rotate_L = me-&gt;L101/tanf(TAL);%0D
-float Radius_of_Rotate_R = me-&gt;L101/tanf(TAR);%0D
+float Radius_of_Rotate_L = (me-&gt;L101)/tanf(TAL);%0D
+float Radius_of_Rotate_R = (me-&gt;L101)/tanf(TAR);%0D
 %0D
 me-&gt;Center_Of_Rotate = (Radius_of_Rotate_L + Radius_of_Rotate_R)/2;%0D
 %0D
@@ -283,8 +283,8 @@ me-&gt;Center_Of_Rotate = (Radius_of_Rotate_L + Radius_of_Rotate_R)/2;%0D
 \viewkind4\uc1\pard\lang1042\f0\fs18 Operation_18\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">12.13.2022::14:46:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::14:46:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:40:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:40:5</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -337,7 +337,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
     (me-&gt;vertex)[i + 6] = (float)(RRx * cos(Rotate) - RRy * sin(Rotate) + me-&gt;Center_Of_Rotate * (1-cos(Rotate)));%0D
     (me-&gt;vertex)[i + 7] = (float)(RRx * sin(Rotate) + RRy * cos(Rotate) - me-&gt;Center_Of_Rotate * sin(Rotate));%0D
 %0D
-    time = time + me-&gt;unit_time;%0D
+    time = time + 0.1;%0D
 }%0D
 %0D
 </_bodyData>
@@ -589,8 +589,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 \viewkind4\uc1\pard\lang1042\f0\fs18 attribute_26\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">12.13.2022::5:27:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::5:27:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -605,14 +605,14 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">1</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID dc7ed416-d6f5-4bec-8a18-8020bcdbdbe5</value>
+				<value>GUID 69734679-8b3c-466f-87cc-9f33c834b0d3</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID dc7ed416-d6f5-4bec-8a18-8020bcdbdbe5</_id>
-			<_modifiedTimeWeak type="a">12.13.2022::5:24:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::5:24:4</_modifiedTime>
-			<_value type="a">3.14159265358979323846</_value>
+			<_id type="a">GUID 69734679-8b3c-466f-87cc-9f33c834b0d3</_id>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
+			<_value type="a">3.14159265358979</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID 2dc98798-0ec3-48c4-8c4c-e28b98b2e240</_id>
@@ -678,8 +678,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 3cdd7050-b17b-4dad-acf3-772cf670a8d7</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">Vertex_Calculator</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:1:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<m_type type="a">specFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID 6c2fde16-c275-49cf-8768-4c8f77edffb0</value>
@@ -773,12 +773,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<IFileFragment type="e">
 			<_id type="a">GUID 14419650-48c1-4661-839f-b390ef8bd23f</_id>
 			<_name type="a">Vertex_Calculator</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:1:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">42</m_startRow>
+			<m_startRow type="a">50</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
-			<m_endRow type="a">59</m_endRow>
+			<m_endRow type="a">67</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -813,6 +813,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 				<value>GUID ffba1183-0757-4fd8-b33c-f289a6d4e8ea</value>
 				<value>GUID 274700ba-5622-49c5-b379-3869053a5c67</value>
 				<value>GUID 48f1dbc2-aeaf-4f6e-9106-d6e068298196</value>
+				<value>GUID b2cfa073-90a4-43f2-a47b-9ecd7673b947</value>
 				<value>GUID 77aacf04-340d-478b-9ca6-c6a0758fab2a</value>
 				<value>GUID d000b332-95bd-41e6-8224-83303fc2e2f0</value>
 			</AggregatesList>
@@ -822,7 +823,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -839,8 +840,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID dc7ded51-093e-46a1-aa67-8d12c5bbf2ac</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
-			<_value type="a">42</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">50</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID fdad4bf4-db1b-43e3-a3b5-f350912812ae</_id>
@@ -871,11 +872,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 7512729e-7407-440d-9c3d-f6b93e80b9f7</_id>
 			<_name type="a">L101</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::15:1:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">44</m_startRow>
+			<m_startRow type="a">52</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">44</m_endRow>
+			<m_endRow type="a">52</m_endRow>
 			<m_endCol_Short type="a">15</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -888,11 +889,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID ab59eafa-b9e8-4119-acb0-e208de615f82</_id>
 			<_name type="a">pinion</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::4:53:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">45</m_startRow>
+			<m_startRow type="a">53</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">45</m_endRow>
+			<m_endRow type="a">53</m_endRow>
 			<m_endCol_Short type="a">17</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -905,11 +906,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 1dd2bee7-bec1-4ddb-8886-d60259dca766</_id>
 			<_name type="a">D_R</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">46</m_startRow>
+			<m_startRow type="a">54</m_startRow>
 			<m_startCol_Short type="a">9</m_startCol_Short>
-			<m_endRow type="a">46</m_endRow>
+			<m_endRow type="a">54</m_endRow>
 			<m_endCol_Short type="a">12</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -922,11 +923,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID f090e5ba-4b76-43e8-b27a-1760c4944e0f</_id>
 			<_name type="a">W101</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::15:0:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:0:58</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">47</m_startRow>
+			<m_startRow type="a">55</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">47</m_endRow>
+			<m_endRow type="a">55</m_endRow>
 			<m_endCol_Short type="a">15</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -939,11 +940,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 93e9b98b-6c42-450a-a03d-6deaefd93e71</_id>
 			<_name type="a">ratio</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::12:5:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::12:5:14</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">48</m_startRow>
+			<m_startRow type="a">56</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">48</m_endRow>
+			<m_endRow type="a">56</m_endRow>
 			<m_endCol_Short type="a">16</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -956,11 +957,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 29b132f8-8024-4808-a6a7-f1caa4144059</_id>
 			<_name type="a">speed</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::11:24:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">49</m_startRow>
+			<m_startRow type="a">57</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">49</m_endRow>
+			<m_endRow type="a">57</m_endRow>
 			<m_endCol_Short type="a">16</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -973,11 +974,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 55e1da2c-39da-4e49-8aa8-3acec5e15e23</_id>
 			<_name type="a">count</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::8:21:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">50</m_startRow>
+			<m_startRow type="a">58</m_startRow>
 			<m_startCol_Short type="a">9</m_startCol_Short>
-			<m_endRow type="a">50</m_endRow>
+			<m_endRow type="a">58</m_endRow>
 			<m_endCol_Short type="a">14</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -990,11 +991,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 2e529ba4-490a-4c8a-be23-ce303f6e1d5b</_id>
 			<_name type="a">Center_Of_Rotate</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">51</m_startRow>
+			<m_startRow type="a">59</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">51</m_endRow>
+			<m_endRow type="a">59</m_endRow>
 			<m_endCol_Short type="a">27</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1006,12 +1007,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<IFileFragment type="e">
 			<_id type="a">GUID dbb56c3e-f6cb-46a0-bed8-57465ec3a285</_id>
 			<_name type="a">PI</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">52</m_startRow>
+			<m_startRow type="a">60</m_startRow>
 			<m_startCol_Short type="a">17</m_startCol_Short>
-			<m_endRow type="a">52</m_endRow>
+			<m_endRow type="a">60</m_endRow>
 			<m_endCol_Short type="a">19</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1024,11 +1025,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 6430373f-6f68-4e30-b1b2-046e0784d6db</_id>
 			<_name type="a">unit_time</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">53</m_startRow>
+			<m_startRow type="a">61</m_startRow>
 			<m_startCol_Short type="a">17</m_startCol_Short>
-			<m_endRow type="a">53</m_endRow>
+			<m_endRow type="a">61</m_endRow>
 			<m_endCol_Short type="a">26</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1041,11 +1042,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID c38c3ca6-ecb7-46bb-8d92-24ae185926f6</_id>
 			<_name type="a">vertex</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::11:26:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">54</m_startRow>
+			<m_startRow type="a">62</m_startRow>
 			<m_startCol_Short type="a">11</m_startCol_Short>
-			<m_endRow type="a">54</m_endRow>
+			<m_endRow type="a">62</m_endRow>
 			<m_endCol_Short type="a">23</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1058,13 +1059,13 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID d42565d9-f1c1-4045-b82d-2c6cf380fce7</_id>
 			<_name type="a">/***    User implicit entries    ***/</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">/***    User implicit entries    ***/
 </m_text>
-			<m_startRow type="a">61</m_startRow>
+			<m_startRow type="a">69</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
-			<m_endRow type="a">61</m_endRow>
+			<m_endRow type="a">69</m_endRow>
 			<m_endCol_Short type="a">38</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1075,13 +1076,13 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID d48fd0d7-6361-4177-8caa-714167faa6f3</_id>
 			<_name type="a">/* Constructors and destructors:*/</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">/* Constructors and destructors:*/
 </m_text>
-			<m_startRow type="a">63</m_startRow>
+			<m_startRow type="a">71</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
-			<m_endRow type="a">63</m_endRow>
+			<m_endRow type="a">71</m_endRow>
 			<m_endCol_Short type="a">35</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1092,12 +1093,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID f192141a-ce5b-4388-8a9b-47e5062c79db</_id>
 			<_name type="a">Create:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_Create(RiCTask *):spec</m_text>
-			<m_startRow type="a">66</m_startRow>
+			<m_startRow type="a">74</m_startRow>
 			<m_startCol_Short type="a">21</m_startCol_Short>
-			<m_endRow type="a">66</m_endRow>
+			<m_endRow type="a">74</m_endRow>
 			<m_endCol_Short type="a">63</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1108,11 +1109,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 20bfad91-095b-46d4-938c-147c7c1c98ea</_id>
 			<_name type="a">Write_CSV</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">69</m_startRow>
+			<m_startRow type="a">77</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">69</m_endRow>
+			<m_endRow type="a">77</m_endRow>
 			<m_endCol_Short type="a">62</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1125,12 +1126,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 4048162f-44fd-4d3d-8ee3-de556f1481a7</_id>
 			<_name type="a">startBehavior:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_startBehavior(Vertex_Calculator * const):spec</m_text>
-			<m_startRow type="a">72</m_startRow>
+			<m_startRow type="a">80</m_startRow>
 			<m_startCol_Short type="a">12</m_startCol_Short>
-			<m_endRow type="a">72</m_endRow>
+			<m_endRow type="a">80</m_endRow>
 			<m_endCol_Short type="a">72</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1141,12 +1142,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 7c949e75-c1b9-42ae-ab49-845234d2a297</_id>
 			<_name type="a">Cleanup:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_Cleanup(Vertex_Calculator * const):spec</m_text>
-			<m_startRow type="a">75</m_startRow>
+			<m_startRow type="a">83</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">75</m_endRow>
+			<m_endRow type="a">83</m_endRow>
 			<m_endCol_Short type="a">60</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1157,11 +1158,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 1e28001d-f45a-41a7-a5bf-aa82409a5f92</_id>
 			<_name type="a">displayVertex</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">78</m_startRow>
+			<m_startRow type="a">86</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">78</m_endRow>
+			<m_endRow type="a">86</m_endRow>
 			<m_endCol_Short type="a">66</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1174,11 +1175,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 308c227c-ca68-4cf0-9086-ca9a85130228</_id>
 			<_name type="a">Init</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">81</m_startRow>
+			<m_startRow type="a">89</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">81</m_endRow>
+			<m_endRow type="a">89</m_endRow>
 			<m_endCol_Short type="a">75</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1191,12 +1192,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 3f4b4ae8-c3e1-406b-a394-376fbd1c53c9</_id>
 			<_name type="a">Destroy:spec</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_Destroy(Vertex_Calculator * const):spec</m_text>
-			<m_startRow type="a">84</m_startRow>
+			<m_startRow type="a">92</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">84</m_endRow>
+			<m_endRow type="a">92</m_endRow>
 			<m_endCol_Short type="a">60</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1207,12 +1208,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID b33ebd2e-d5fb-4fd7-90dc-2c550bc50622</_id>
 			<_name type="a">setD_R:spec</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setD_R(Vertex_Calculator * const,int):spec</m_text>
-			<m_startRow type="a">87</m_startRow>
+			<m_startRow type="a">95</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">87</m_endRow>
+			<m_endRow type="a">95</m_endRow>
 			<m_endCol_Short type="a">70</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1223,12 +1224,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID ffba1183-0757-4fd8-b33c-f289a6d4e8ea</_id>
 			<_name type="a">setCount:spec</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setCount(Vertex_Calculator * const,int):spec</m_text>
-			<m_startRow type="a">90</m_startRow>
+			<m_startRow type="a">98</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">90</m_endRow>
+			<m_endRow type="a">98</m_endRow>
 			<m_endCol_Short type="a">74</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1239,12 +1240,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 274700ba-5622-49c5-b379-3869053a5c67</_id>
 			<_name type="a">setPinion:spec</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setPinion(Vertex_Calculator * const,float):spec</m_text>
-			<m_startRow type="a">93</m_startRow>
+			<m_startRow type="a">101</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">93</m_endRow>
+			<m_endRow type="a">101</m_endRow>
 			<m_endCol_Short type="a">78</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1255,13 +1256,29 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 48f1dbc2-aeaf-4f6e-9106-d6e068298196</_id>
 			<_name type="a">setSpeed:spec</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setSpeed(Vertex_Calculator * const,float):spec</m_text>
-			<m_startRow type="a">96</m_startRow>
+			<m_startRow type="a">104</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">96</m_endRow>
+			<m_endRow type="a">104</m_endRow>
 			<m_endCol_Short type="a">76</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID b2cfa073-90a4-43f2-a47b-9ecd7673b947</_id>
+			<_name type="a">setRatio:spec</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation setRatio(Vertex_Calculator * const,float):spec</m_text>
+			<m_startRow type="a">107</m_startRow>
+			<m_startCol_Short type="a">6</m_startCol_Short>
+			<m_endRow type="a">107</m_endRow>
+			<m_endCol_Short type="a">58</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
 				</INObjectHandle>
@@ -1271,12 +1288,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 77aacf04-340d-478b-9ca6-c6a0758fab2a</_id>
 			<_name type="a">setL101:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setL101(Vertex_Calculator * const,float):spec</m_text>
-			<m_startRow type="a">111</m_startRow>
+			<m_startRow type="a">126</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">111</m_endRow>
+			<m_endRow type="a">126</m_endRow>
 			<m_endCol_Short type="a">56</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1287,12 +1304,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID d000b332-95bd-41e6-8224-83303fc2e2f0</_id>
 			<_name type="a">setW101:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setW101(Vertex_Calculator * const,float):spec</m_text>
-			<m_startRow type="a">114</m_startRow>
+			<m_startRow type="a">129</m_startRow>
 			<m_startCol_Short type="a">6</m_startCol_Short>
-			<m_endRow type="a">114</m_endRow>
+			<m_endRow type="a">129</m_endRow>
 			<m_endCol_Short type="a">56</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1303,8 +1320,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 69bb4136-df60-474d-a63e-7324c3fafb51</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">Vertex_Calculator</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:1:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<m_type type="a">implFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID c32abdba-ef9c-4765-9f63-22af3f05c553</value>
@@ -1312,6 +1329,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 				<value>GUID 4a8c049d-078b-4e76-b8d2-1f0cfd321f76</value>
 				<value>GUID 080598b1-eba5-4df5-b74a-87262925eac4</value>
 				<value>GUID 57eb7cf3-45b1-4d46-b08f-854cddfa64b6</value>
+				<value>GUID 01d81b25-e154-4b1e-bde6-1c30df1174d4</value>
 				<value>GUID 1fefc2fa-b38e-499d-a800-3c1f8a63fe1d</value>
 			</AggregatesList>
 		</IFile>
@@ -1396,12 +1414,28 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			</m_subject>
 		</IFileFragment>
 		<IFileFragment type="e">
+			<_id type="a">GUID 01d81b25-e154-4b1e-bde6-1c30df1174d4</_id>
+			<_name type="a">string:spec</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:26:27</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency string:spec</m_text>
+			<m_startRow type="a">22</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">22</m_endRow>
+			<m_endCol_Short type="a">20</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+		</IFileFragment>
+		<IFileFragment type="e">
 			<_id type="a">GUID 1fefc2fa-b38e-499d-a800-3c1f8a63fe1d</_id>
 			<_name type="a">Vertex_Calculator</_name>
-			<_modifiedTimeWeak type="a">12.13.2022::15:1:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::15:1:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.13.2022::15:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:44:52</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">176</m_startRow>
+			<m_startRow type="a">204</m_startRow>
 			<m_startCol_Short type="a">64</m_startCol_Short>
 			<m_endRow type="a">0</m_endRow>
 			<m_endCol_Short type="a">0</m_endCol_Short>
@@ -1428,6 +1462,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 				<value>GUID e7e08291-0e10-491b-ac08-d9b634f4539a</value>
 				<value>GUID 7cb30404-8d64-48ba-a482-71259a320fe2</value>
 				<value>GUID 90a0c1ea-f380-4e5c-8238-dec0d59bde60</value>
+				<value>GUID f6203bcc-6c23-4e62-9362-f7daa49c3c6f</value>
 				<value>GUID 3ff1f16c-630e-4a70-bd1a-655da8662e6c</value>
 				<value>GUID 219a37f9-318b-4008-8c5b-7ba28089d648</value>
 				<value>GUID a23ddf09-b371-42a9-9304-ddbc77fc8e1b</value>
@@ -1437,12 +1472,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 21978dfd-efab-4c43-abfb-0ccefc5fea54</_id>
 			<_name type="a">initStatechart:spec</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation initStatechart(Vertex_Calculator * const):spec</m_text>
-			<m_startRow type="a">64</m_startRow>
+			<m_startRow type="a">76</m_startRow>
 			<m_startCol_Short type="a">13</m_startCol_Short>
-			<m_endRow type="a">64</m_endRow>
+			<m_endRow type="a">76</m_endRow>
 			<m_endCol_Short type="a">56</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1453,11 +1488,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID bb81340c-9e80-4584-bd4d-25f4e14261c6</_id>
 			<_name type="a">Calculate_CenterOfRotate</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">110</m_startRow>
+			<m_startRow type="a">132</m_startRow>
 			<m_startCol_Short type="a">13</m_startCol_Short>
-			<m_endRow type="a">110</m_endRow>
+			<m_endRow type="a">132</m_endRow>
 			<m_endCol_Short type="a">66</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1470,11 +1505,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID f15d48eb-dad2-40b4-be68-d61459df50a6</_id>
 			<_name type="a">Calcultate_Vertex</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
-			<m_startRow type="a">113</m_startRow>
+			<m_startRow type="a">135</m_startRow>
 			<m_startCol_Short type="a">13</m_startCol_Short>
-			<m_endRow type="a">113</m_endRow>
+			<m_endRow type="a">135</m_endRow>
 			<m_endCol_Short type="a">59</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1487,11 +1522,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID ae731a35-4f8b-4cca-80c0-c2d7c7de88cd</_id>
 			<_name type="a">Calculate_CenterOfRotate</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">116</m_startRow>
+			<m_startRow type="a">138</m_startRow>
 			<m_startCol_Short type="a">67</m_startCol_Short>
-			<m_endRow type="a">135</m_endRow>
+			<m_endRow type="a">157</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1509,7 +1544,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1526,8 +1561,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 2555b4f0-6654-4556-9bd0-d273968bea08</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
-			<_value type="a">116</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">138</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID e77e8c02-536a-4d25-b964-718b66d9443c</_id>
@@ -1558,11 +1593,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 9ccbb669-22e0-42c4-9237-cdb21a6f5240</_id>
 			<_name type="a">Calcultate_Vertex</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">138</m_startRow>
+			<m_startRow type="a">160</m_startRow>
 			<m_startCol_Short type="a">60</m_startCol_Short>
-			<m_endRow type="a">174</m_endRow>
+			<m_endRow type="a">202</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1580,7 +1615,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1597,8 +1632,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 68b05138-d9bf-476c-8eab-4ea2c95248ea</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">138</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">160</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 0e0458db-3c8b-42d9-bc55-1449b0e762fe</_id>
@@ -1629,12 +1664,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 9c96d481-1758-4379-b09a-3adcc05fc922</_id>
 			<_name type="a">Create:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_Create(RiCTask *):impl</m_text>
-			<m_startRow type="a">176</m_startRow>
+			<m_startRow type="a">204</m_startRow>
 			<m_startCol_Short type="a">64</m_startCol_Short>
-			<m_endRow type="a">184</m_endRow>
+			<m_endRow type="a">212</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1650,7 +1685,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1667,8 +1702,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 4d704807-ff1f-4c25-b0d0-860deafc47d5</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">176</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">204</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID ee3e127d-508f-4d55-9696-709445bc2284</_id>
@@ -1699,11 +1734,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID fe60a072-2dad-4d29-893f-a30df3e1589c</_id>
 			<_name type="a">Write_CSV</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">187</m_startRow>
+			<m_startRow type="a">215</m_startRow>
 			<m_startCol_Short type="a">63</m_startCol_Short>
-			<m_endRow type="a">204</m_endRow>
+			<m_endRow type="a">232</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1721,7 +1756,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1738,8 +1773,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 5f2b6b76-fc76-479b-8bcc-f062336588b2</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">187</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">215</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID f334adb5-23f1-4c01-9b8e-923f2b6df197</_id>
@@ -1770,12 +1805,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID f0a92604-0c90-4c34-92f9-219b92b6cc63</_id>
 			<_name type="a">initStatechart:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation initStatechart(Vertex_Calculator * const):impl</m_text>
-			<m_startRow type="a">206</m_startRow>
+			<m_startRow type="a">234</m_startRow>
 			<m_startCol_Short type="a">57</m_startCol_Short>
-			<m_endRow type="a">209</m_endRow>
+			<m_endRow type="a">237</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1791,7 +1826,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1808,8 +1843,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 3874e803-fd12-4655-81c8-9bacc733a272</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">206</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">234</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 7dd48119-a957-404d-ab9f-d8ae845eab4c</_id>
@@ -1840,12 +1875,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 09270120-7f36-4de0-a81b-90a856af725f</_id>
 			<_name type="a">Cleanup:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_Cleanup(Vertex_Calculator * const):impl</m_text>
-			<m_startRow type="a">211</m_startRow>
+			<m_startRow type="a">239</m_startRow>
 			<m_startCol_Short type="a">61</m_startCol_Short>
-			<m_endRow type="a">214</m_endRow>
+			<m_endRow type="a">242</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1861,7 +1896,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1878,8 +1913,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 361813cc-78eb-42a6-b732-cfb5d950cf6c</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">211</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">239</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 1898b8b6-2c7a-4c9d-86a0-068a40126902</_id>
@@ -1910,11 +1945,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 2c610011-eadd-42bd-be6c-518a56c000e6</_id>
 			<_name type="a">displayVertex</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">217</m_startRow>
+			<m_startRow type="a">245</m_startRow>
 			<m_startCol_Short type="a">67</m_startCol_Short>
-			<m_endRow type="a">231</m_endRow>
+			<m_endRow type="a">259</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -1932,7 +1967,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1949,8 +1984,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 3b241dae-b8bb-4cf9-99ca-8cf764bb1a69</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">217</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">245</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID b8cbfcd7-7cd6-40db-963d-7bd25f19bc90</_id>
@@ -1981,11 +2016,11 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID ce586d0d-d6fd-4e6e-8fc0-5563447c01f2</_id>
 			<_name type="a">Init</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
-			<m_startRow type="a">234</m_startRow>
+			<m_startRow type="a">262</m_startRow>
 			<m_startCol_Short type="a">76</m_startCol_Short>
-			<m_endRow type="a">266</m_endRow>
+			<m_endRow type="a">294</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2003,7 +2038,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2020,8 +2055,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 47b5f047-301e-49c0-908b-ba9486d39c27</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">234</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">262</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 1f8e9908-ca13-4bca-98c7-4a3195b9f63a</_id>
@@ -2052,12 +2087,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 957177ef-2c6e-4fe5-a1e5-4d12b05b9cfb</_id>
 			<_name type="a">startBehavior:impl</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_startBehavior(Vertex_Calculator * const):impl</m_text>
-			<m_startRow type="a">268</m_startRow>
+			<m_startRow type="a">296</m_startRow>
 			<m_startCol_Short type="a">73</m_startCol_Short>
-			<m_endRow type="a">272</m_endRow>
+			<m_endRow type="a">300</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2073,7 +2108,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2090,8 +2125,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID fc23e36d-e2ae-47ce-86cc-0e55c5b4fd72</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">268</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">296</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID a7b13f13-13e6-40f5-b9db-abe7ad16a228</_id>
@@ -2122,12 +2157,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID c89937e2-bd03-4ac8-9e4b-8e47835f12e7</_id>
 			<_name type="a">setD_R:impl</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setD_R(Vertex_Calculator * const,int):impl</m_text>
-			<m_startRow type="a">274</m_startRow>
+			<m_startRow type="a">302</m_startRow>
 			<m_startCol_Short type="a">71</m_startCol_Short>
-			<m_endRow type="a">277</m_endRow>
+			<m_endRow type="a">305</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2143,7 +2178,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2160,8 +2195,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID d866ba45-2394-4eec-9f18-7b1f70d18386</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">274</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">302</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 5820fd08-0a6b-41bc-bf5f-006e04a6f485</_id>
@@ -2192,12 +2227,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID e7e08291-0e10-491b-ac08-d9b634f4539a</_id>
 			<_name type="a">setCount:impl</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setCount(Vertex_Calculator * const,int):impl</m_text>
-			<m_startRow type="a">279</m_startRow>
+			<m_startRow type="a">307</m_startRow>
 			<m_startCol_Short type="a">75</m_startCol_Short>
-			<m_endRow type="a">282</m_endRow>
+			<m_endRow type="a">310</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2213,7 +2248,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2230,8 +2265,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 8f58e854-bce4-4f70-8423-9fcb996b0c1d</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_value type="a">279</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">307</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID a132c6f7-bb83-4870-85a6-581a6bd4dc70</_id>
@@ -2262,12 +2297,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 7cb30404-8d64-48ba-a482-71259a320fe2</_id>
 			<_name type="a">setPinion:impl</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setPinion(Vertex_Calculator * const,float):impl</m_text>
-			<m_startRow type="a">284</m_startRow>
+			<m_startRow type="a">312</m_startRow>
 			<m_startCol_Short type="a">79</m_startCol_Short>
-			<m_endRow type="a">287</m_endRow>
+			<m_endRow type="a">315</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2283,7 +2318,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2300,8 +2335,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 47cde637-87ff-4dd0-b197-6ed7b4ecfd03</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_value type="a">284</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">312</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 2128fe4a-daa3-41d1-8776-51ad1d1607ba</_id>
@@ -2332,12 +2367,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 90a0c1ea-f380-4e5c-8238-dec0d59bde60</_id>
 			<_name type="a">setSpeed:impl</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setSpeed(Vertex_Calculator * const,float):impl</m_text>
-			<m_startRow type="a">289</m_startRow>
+			<m_startRow type="a">317</m_startRow>
 			<m_startCol_Short type="a">77</m_startCol_Short>
-			<m_endRow type="a">292</m_endRow>
+			<m_endRow type="a">320</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2353,7 +2388,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2370,8 +2405,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 8dbf0bf6-36ae-4019-903c-5d05565bc339</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_value type="a">289</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">317</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 03966eb3-414b-4941-9d2c-a66d108a9579</_id>
@@ -2399,15 +2434,85 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_value type="a">77</_value>
 		</ILiteralSpecification>
 		<IFileFragment type="e">
+			<_id type="a">GUID f6203bcc-6c23-4e62-9362-f7daa49c3c6f</_id>
+			<_name type="a">setRatio:impl</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:operation setRatio(Vertex_Calculator * const,float):impl</m_text>
+			<m_startRow type="a">322</m_startRow>
+			<m_startCol_Short type="a">59</m_startCol_Short>
+			<m_endRow type="a">325</m_endRow>
+			<m_endCol_Short type="a">1</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<AggregatesList type="e">
+				<value>GUID c73d0916-d684-460c-8ca0-c79710e84920</value>
+				<value>GUID 39a0e834-a07f-4061-a583-6ded10da3f5a</value>
+			</AggregatesList>
+		</IFileFragment>
+		<ITag type="e">
+			<_id type="a">GUID c73d0916-d684-460c-8ca0-c79710e84920</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartLine</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 07b7b813-4e60-49f6-9717-75a7ef461dd4</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 07b7b813-4e60-49f6-9717-75a7ef461dd4</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">322</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 39a0e834-a07f-4061-a583-6ded10da3f5a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BodyStartCol</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 8a362a43-406e-43b0-b509-1b58200949b8</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 8a362a43-406e-43b0-b509-1b58200949b8</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">59</_value>
+		</ILiteralSpecification>
+		<IFileFragment type="e">
 			<_id type="a">GUID 3ff1f16c-630e-4a70-bd1a-655da8662e6c</_id>
 			<_name type="a">setL101:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setL101(Vertex_Calculator * const,float):impl</m_text>
-			<m_startRow type="a">294</m_startRow>
+			<m_startRow type="a">327</m_startRow>
 			<m_startCol_Short type="a">57</m_startCol_Short>
-			<m_endRow type="a">297</m_endRow>
+			<m_endRow type="a">330</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2423,7 +2528,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2440,8 +2545,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID e71c6733-4c15-4a0b-9158-6143b9ee2a68</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">294</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
+			<_value type="a">327</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 06281339-5f70-4ab8-864d-2ed93f6ea887</_id>
@@ -2472,12 +2577,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID 219a37f9-318b-4008-8c5b-7ba28089d648</_id>
 			<_name type="a">setW101:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Vertex_Calculator_setW101(Vertex_Calculator * const,float):impl</m_text>
-			<m_startRow type="a">299</m_startRow>
+			<m_startRow type="a">332</m_startRow>
 			<m_startCol_Short type="a">57</m_startCol_Short>
-			<m_endRow type="a">302</m_endRow>
+			<m_endRow type="a">335</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2493,7 +2598,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2510,8 +2615,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID 3df9a224-e93f-4ff1-becc-b99c0b09c4c5</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">299</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:51</_modifiedTime>
+			<_value type="a">332</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID dcea534f-c24c-44e6-ba8e-28bfa88c628d</_id>
@@ -2542,12 +2647,12 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_id type="a">GUID a23ddf09-b371-42a9-9304-ddbc77fc8e1b</_id>
 			<_name type="a">Destroy:impl</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<m_type type="a">textFragment</m_type>
 			<m_text type="a">//## auto:operation Dishwasher_Destroy(Dishwasher * const):impl</m_text>
-			<m_startRow type="a">304</m_startRow>
+			<m_startRow type="a">337</m_startRow>
 			<m_startCol_Short type="a">61</m_startCol_Short>
-			<m_endRow type="a">310</m_endRow>
+			<m_endRow type="a">343</m_endRow>
 			<m_endCol_Short type="a">1</m_endCol_Short>
 			<m_subject type="r">
 				<INObjectHandle type="e">
@@ -2563,7 +2668,7 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">BodyStartLine</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:50:16</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2580,8 +2685,8 @@ for (i = 0; i &lt; (me-&gt;count)*8; i += 8) {%0D
 		<ILiteralSpecification type="e">
 			<_id type="a">GUID f07efdef-6531-4c54-add8-a66be2a386a7</_id>
 			<_modifiedTimeWeak type="a">12.13.2022::5:42:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::11:53:27</_modifiedTime>
-			<_value type="a">304</_value>
+			<_modifiedTime type="a">12.13.2022::15:26:28</_modifiedTime>
+			<_value type="a">337</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 28e8b740-0c26-4882-bfe1-871f4b7e35e0</_id>

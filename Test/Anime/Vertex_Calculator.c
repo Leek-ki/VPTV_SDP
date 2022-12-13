@@ -4,7 +4,7 @@
 	Component	: Test 
 	Configuration 	: Anime
 	Model Element	: Vertex_Calculator
-//!	Generated Date	: Tue, 13, Dec 2022  
+//!	Generated Date	: Wed, 14, Dec 2022  
 	File Path	: Test\Anime\Vertex_Calculator.c
 *********************************************************************/
 
@@ -90,6 +90,12 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
 
 #ifdef _OMINSTRUMENT
 /*## statechart_method */
+static void Drawing_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState);
+
+/*## statechart_method */
+static void Display_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState);
+
+/*## statechart_method */
 static void Active_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState);
 #endif /* _OMINSTRUMENT */
 
@@ -133,15 +139,15 @@ static void Calculate_CenterOfRotate(Vertex_Calculator* const me) {
     NOTIFY_OPERATION(me, &me, NULL, Vertex_Calculator, Calculate_CenterOfRotate, Calculate_CenterOfRotate(), 0, Default_Vertex_Calculator_Calculate_CenterOfRotate_SERIALIZE);
     {
         /*#[ operation Calculate_CenterOfRotate() */
-        float C = me->pinion/me->ratio;
-        float TAC = -1*C*me->PI/((float)180.0); // radian
+        float C = (me->pinion)/(me->ratio);
+        float TAC = -1 * C * 3.14159265358979 /((float)180.0); // radian
         float M_C = me->L101/tanf(TAC);
-        float L_C = M_C+me->W101/2;
-        float R_C = M_C-me->W101/2;
+        float L_C = M_C+(me->W101)/2;
+        float R_C = M_C-(me->W101)/2;
         float TAL = atan2f(me->L101,-1*L_C);
         float TAR = atan2f(me->L101,-1*R_C);
-        float Radius_of_Rotate_L = me->L101/tanf(TAL);
-        float Radius_of_Rotate_R = me->L101/tanf(TAR);
+        float Radius_of_Rotate_L = (me->L101)/tanf(TAL);
+        float Radius_of_Rotate_R = (me->L101)/tanf(TAR);
         
         me->Center_Of_Rotate = (Radius_of_Rotate_L + Radius_of_Rotate_R)/2;
         
@@ -187,7 +193,7 @@ static void Calcultate_Vertex(Vertex_Calculator* const me) {
             (me->vertex)[i + 6] = (float)(RRx * cos(Rotate) - RRy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
             (me->vertex)[i + 7] = (float)(RRx * sin(Rotate) + RRy * cos(Rotate) - me->Center_Of_Rotate * sin(Rotate));
         
-            time = time + me->unit_time;
+            time = time + 0.1;
         }
         
     
@@ -266,8 +272,8 @@ void Vertex_Calculator_Init(Vertex_Calculator* const me, RiCTask * p_task) {
         (RiCObjectCleanupMethod) Vertex_Calculator_Cleanup,
         (RiCObjectFreeMethod) FreeInstance
     };
-    me->L101 = 2000;
-    me->W101 = 1500;
+    me->L101 = 2.7347;
+    me->W101 = 1.5922;
     me->pinion = 0;
     me->ratio = 12;
     me->speed = 5;
@@ -313,6 +319,11 @@ void Vertex_Calculator_setSpeed(Vertex_Calculator* const me, float p_speed) {
     NOTIFY_SET_OPERATION(me, Vertex_Calculator);
 }
 
+void setRatio(Vertex_Calculator* const me, float p_ratio) {
+    me->ratio = p_ratio;
+    NOTIFY_SET_OPERATION(me, Vertex_Calculator);
+}
+
 void setL101(Vertex_Calculator* const me, float p_L101) {
     me->L101 = p_L101;
     NOTIFY_SET_OPERATION(me, Vertex_Calculator);
@@ -320,11 +331,6 @@ void setL101(Vertex_Calculator* const me, float p_L101) {
 
 void setW101(Vertex_Calculator* const me, float p_W101) {
     me->W101 = p_W101;
-    NOTIFY_SET_OPERATION(me, Vertex_Calculator);
-}
-
-void setRatio(Vertex_Calculator* const me, float p_ratio) {
-    me->ratio = p_ratio;
     NOTIFY_SET_OPERATION(me, Vertex_Calculator);
 }
 
@@ -338,6 +344,14 @@ void Vertex_Calculator_Destroy(Vertex_Calculator* const me) {
 
 int Vertex_Calculator_rootState_IN(const Vertex_Calculator* const me) {
     return 1;
+}
+
+int Vertex_Calculator_Drawing_IN(const Vertex_Calculator* const me) {
+    return me->rootState_subState == Vertex_Calculator_Drawing;
+}
+
+int Vertex_Calculator_Display_IN(const Vertex_Calculator* const me) {
+    return me->rootState_subState == Vertex_Calculator_Display;
 }
 
 int Vertex_Calculator_Active_IN(const Vertex_Calculator* const me) {
@@ -363,10 +377,25 @@ static void rootState_serializeStates(const void * const void_me, ARCSState * ar
     
     const Vertex_Calculator * const me = (const Vertex_Calculator *)void_me;
     ARCSS_addState_OMH(arcsState, "ROOT");
-    if(me->rootState_subState == Vertex_Calculator_Active)
+    switch (me->rootState_subState) {
+        case Vertex_Calculator_Active:
         {
             Active_serializeStates(me, arcsState);
         }
+        break;
+        case Vertex_Calculator_Display:
+        {
+            Display_serializeStates(me, arcsState);
+        }
+        break;
+        case Vertex_Calculator_Drawing:
+        {
+            Drawing_serializeStates(me, arcsState);
+        }
+        break;
+        default:
+            break;
+    }
 }
 #endif /* _OMINSTRUMENT */
 
@@ -394,8 +423,9 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
     
     Vertex_Calculator * const me = (Vertex_Calculator *)void_me;
     RiCTakeEventStatus res = eventNotConsumed;
-    /* State Active */
-    if(me->rootState_active == Vertex_Calculator_Active)
+    switch (me->rootState_active) {
+        /* State Active */
+        case Vertex_Calculator_Active:
         {
             if(id == Timeout_id)
                 {
@@ -411,8 +441,58 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
                                 Calculate_CenterOfRotate(me);
                                 printf("Calculate Vertex\n");
                                 Calcultate_Vertex(me);
-                                printf("Write CSV\n");
+                                /*#]*/
+                            }
+                            NOTIFY_STATE_ENTERED(me, Vertex_Calculator, "ROOT.Display");
+                            me->rootState_subState = Vertex_Calculator_Display;
+                            me->rootState_active = Vertex_Calculator_Display;
+                            RiCTask_schedTm(me->ric_reactive.myTask, 100, Vertex_Calculator_Timeout_Display_id, &(me->ric_reactive), "ROOT.Display");
+                            NOTIFY_TRANSITION_TERMINATED(me, Vertex_Calculator, "1");
+                            res = eventConsumed;
+                        }
+                }
+        }
+        break;
+        /* State Display */
+        case Vertex_Calculator_Display:
+        {
+            if(id == Timeout_id)
+                {
+                    if(RiCTimeout_getTimeoutId((RiCTimeout*) me->ric_reactive.current_event) == Vertex_Calculator_Timeout_Display_id)
+                        {
+                            NOTIFY_TRANSITION_STARTED(me, Vertex_Calculator, "2");
+                            RiCTask_unschedTm(me->ric_reactive.myTask, Vertex_Calculator_Timeout_Display_id, &(me->ric_reactive));
+                            NOTIFY_STATE_EXITED(me, Vertex_Calculator, "ROOT.Display");
+                            {
+                                /*#[ transition 2 */
+                                
                                 Vertex_Calculator_displayVertex(me);
+                                /*#]*/
+                            }
+                            NOTIFY_STATE_ENTERED(me, Vertex_Calculator, "ROOT.Drawing");
+                            me->rootState_subState = Vertex_Calculator_Drawing;
+                            me->rootState_active = Vertex_Calculator_Drawing;
+                            RiCTask_schedTm(me->ric_reactive.myTask, 100, Vertex_Calculator_Timeout_Drawing_id, &(me->ric_reactive), "ROOT.Drawing");
+                            NOTIFY_TRANSITION_TERMINATED(me, Vertex_Calculator, "2");
+                            res = eventConsumed;
+                        }
+                }
+        }
+        break;
+        /* State Drawing */
+        case Vertex_Calculator_Drawing:
+        {
+            if(id == Timeout_id)
+                {
+                    if(RiCTimeout_getTimeoutId((RiCTimeout*) me->ric_reactive.current_event) == Vertex_Calculator_Timeout_Drawing_id)
+                        {
+                            NOTIFY_TRANSITION_STARTED(me, Vertex_Calculator, "3");
+                            RiCTask_unschedTm(me->ric_reactive.myTask, Vertex_Calculator_Timeout_Drawing_id, &(me->ric_reactive));
+                            NOTIFY_STATE_EXITED(me, Vertex_Calculator, "ROOT.Drawing");
+                            {
+                                /*#[ transition 3 */
+                                
+                                printf("Write CSV\n");
                                 Vertex_Calculator_Write_CSV(me);
                                 /*#]*/
                             }
@@ -420,15 +500,27 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
                             me->rootState_subState = Vertex_Calculator_Active;
                             me->rootState_active = Vertex_Calculator_Active;
                             RiCTask_schedTm(me->ric_reactive.myTask, 200, Vertex_Calculator_Timeout_Active_id, &(me->ric_reactive), "ROOT.Active");
-                            NOTIFY_TRANSITION_TERMINATED(me, Vertex_Calculator, "1");
+                            NOTIFY_TRANSITION_TERMINATED(me, Vertex_Calculator, "3");
                             res = eventConsumed;
                         }
                 }
         }
+        break;
+        default:
+            break;
+    }
     return res;
 }
 
 #ifdef _OMINSTRUMENT
+static void Drawing_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState) {
+    ARCSS_addState_OMH(arcsState, "ROOT.Drawing");
+}
+
+static void Display_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState) {
+    ARCSS_addState_OMH(arcsState, "ROOT.Display");
+}
+
 static void Active_serializeStates(const Vertex_Calculator* const me, ARCSState * arcsState) {
     ARCSS_addState_OMH(arcsState, "ROOT.Active");
 }

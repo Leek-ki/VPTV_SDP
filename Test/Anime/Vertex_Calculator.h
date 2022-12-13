@@ -4,7 +4,7 @@
 	Component	: Test 
 	Configuration 	: Anime
 	Model Element	: Vertex_Calculator
-//!	Generated Date	: Tue, 13, Dec 2022  
+//!	Generated Date	: Wed, 14, Dec 2022  
 	File Path	: Test\Anime\Vertex_Calculator.h
 *********************************************************************/
 
@@ -22,7 +22,11 @@
 /*## auto_generated */
 #include <oxf\Ric.h>
 /*#[ ignore */
-#define Vertex_Calculator_Timeout_Active_id 1
+#define Vertex_Calculator_Timeout_Active_id 3
+
+#define Vertex_Calculator_Timeout_Display_id 2
+
+#define Vertex_Calculator_Timeout_Drawing_id 1
 
 #define OMAnim_Default_Vertex_Calculator_setD_R_int_ARGS_DECLARATION int p_D_R;
 
@@ -99,6 +103,9 @@ void Vertex_Calculator_setPinion(Vertex_Calculator* const me, float p_pinion);
 /*## auto_generated */
 void Vertex_Calculator_setSpeed(Vertex_Calculator* const me, float p_speed);
 
+/*## auto_generated */
+void setRatio(Vertex_Calculator* const me, float p_ratio);
+
 #ifdef _OMINSTRUMENT
 DECLARE_OPERATION_CLASS(Default_Vertex_Calculator_setD_R_int)
 
@@ -121,12 +128,17 @@ void setL101(Vertex_Calculator* const me, float p_L101);
 /*## auto_generated */
 void setW101(Vertex_Calculator* const me, float p_W101);
 
-/*## auto_generated */
-void setRatio(Vertex_Calculator* const me, float p_ratio);
-
 /* rootState: */
 /*## statechart_method */
 int Vertex_Calculator_rootState_IN(const Vertex_Calculator* const me);
+
+/* Drawing: */
+/*## statechart_method */
+int Vertex_Calculator_Drawing_IN(const Vertex_Calculator* const me);
+
+/* Display: */
+/*## statechart_method */
+int Vertex_Calculator_Display_IN(const Vertex_Calculator* const me);
 
 /* Active: */
 /*## statechart_method */
@@ -135,7 +147,9 @@ int Vertex_Calculator_Active_IN(const Vertex_Calculator* const me);
 /*#[ ignore */
 enum Vertex_Calculator_Enum {
     Vertex_Calculator_RiCNonState = 0,
-    Vertex_Calculator_Active = 1
+    Vertex_Calculator_Drawing = 1,
+    Vertex_Calculator_Display = 2,
+    Vertex_Calculator_Active = 3
 };
 /*#]*/
 

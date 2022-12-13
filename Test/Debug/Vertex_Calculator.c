@@ -4,7 +4,7 @@
 	Component	: Test 
 	Configuration 	: Debug
 	Model Element	: Vertex_Calculator
-//!	Generated Date	: Tue, 13, Dec 2022  
+//!	Generated Date	: Wed, 14, Dec 2022  
 	File Path	: Test\Debug\Vertex_Calculator.c
 *********************************************************************/
 
@@ -45,15 +45,15 @@ static void Calcultate_Vertex(Vertex_Calculator* const me);
 /*## operation Calculate_CenterOfRotate() */
 static void Calculate_CenterOfRotate(Vertex_Calculator* const me) {
     /*#[ operation Calculate_CenterOfRotate() */
-    float C = me->pinion/me->ratio;
-    float TAC = -1*C*me->PI/((float)180.0); // radian
+    float C = (me->pinion)/(me->ratio);
+    float TAC = -1*C*(me->PI)/((float)180.0); // radian
     float M_C = me->L101/tanf(TAC);
-    float L_C = M_C+me->W101/2;
-    float R_C = M_C-me->W101/2;
+    float L_C = M_C+(me->W101)/2;
+    float R_C = M_C-(me->W101)/2;
     float TAL = atan2f(me->L101,-1*L_C);
     float TAR = atan2f(me->L101,-1*R_C);
-    float Radius_of_Rotate_L = me->L101/tanf(TAL);
-    float Radius_of_Rotate_R = me->L101/tanf(TAR);
+    float Radius_of_Rotate_L = (me->L101)/tanf(TAL);
+    float Radius_of_Rotate_R = (me->L101)/tanf(TAR);
     
     me->Center_Of_Rotate = (Radius_of_Rotate_L + Radius_of_Rotate_R)/2;
     
@@ -65,7 +65,7 @@ static void Calculate_CenterOfRotate(Vertex_Calculator* const me) {
 static void Calcultate_Vertex(Vertex_Calculator* const me) {
     /*#[ operation Calcultate_Vertex() */
     float Rotate, FLx, FLy, FRx, FRy, RLx, RLy, RRx, RRy, time;
-    int i;
+    int i,gear;
     
     FLx = -(me->W101)/2;
     FLy = me->L101;
@@ -78,9 +78,15 @@ static void Calcultate_Vertex(Vertex_Calculator* const me) {
     
     time = 0;
     
+    if(me->D_R == 0)
+    {
+    	gear = -1;
+    }
+    else
+    	gear = 1;
     
     for (i = 0; i < (me->count)*8; i += 8) {
-        Rotate = -1 * me->D_R * time * me->speed / me->Center_Of_Rotate;
+        Rotate = -1 * gear * time * me->speed / me->Center_Of_Rotate;
         (me->vertex)[i] = (float)(FLx * cos(Rotate) - FLy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
         (me->vertex)[i + 1] = (float)(FLx * sin(Rotate) + FLy * cos(Rotate) - me->Center_Of_Rotate * sin(Rotate));
         (me->vertex)[i + 2] = (float)(FRx * cos(Rotate) - FRy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
@@ -90,7 +96,7 @@ static void Calcultate_Vertex(Vertex_Calculator* const me) {
         (me->vertex)[i + 6] = (float)(RRx * cos(Rotate) - RRy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
         (me->vertex)[i + 7] = (float)(RRx * sin(Rotate) + RRy * cos(Rotate) - me->Center_Of_Rotate * sin(Rotate));
     
-        time = time + me->unit_time;
+        time = time + 0.1;
     }
     
     
@@ -140,7 +146,7 @@ void Vertex_Calculator_displayVertex(Vertex_Calculator* const me) {
     
     printf("        x         y         x         y         x         y         x         y  \n");
     for (i = 0; i < (me->count)*8; i += 8) {
-        printf("%2d %9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f\n",(i+8)/8, (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
+        printf("%2d %9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f\n",(i+8)/8, (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
     }
     
     
@@ -161,8 +167,8 @@ void Vertex_Calculator_Init(Vertex_Calculator* const me, RiCTask * p_task) {
         (RiCObjectCleanupMethod) Vertex_Calculator_Cleanup,
         (RiCObjectFreeMethod) FreeInstance
     };
-    me->L101 = 2000;
-    me->W101 = 1500;
+    me->L101 = 2.7347;
+    me->W101 = 1.5922;
     me->pinion = 0;
     me->ratio = 12;
     me->speed = 5;
@@ -198,6 +204,14 @@ int Vertex_Calculator_rootState_IN(const Vertex_Calculator* const me) {
     return 1;
 }
 
+int Vertex_Calculator_Drawing_IN(const Vertex_Calculator* const me) {
+    return me->rootState_subState == Vertex_Calculator_Drawing;
+}
+
+int Vertex_Calculator_Display_IN(const Vertex_Calculator* const me) {
+    return me->rootState_subState == Vertex_Calculator_Display;
+}
+
 int Vertex_Calculator_Active_IN(const Vertex_Calculator* const me) {
     return me->rootState_subState == Vertex_Calculator_Active;
 }
@@ -222,8 +236,9 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
     
     Vertex_Calculator * const me = (Vertex_Calculator *)void_me;
     RiCTakeEventStatus res = eventNotConsumed;
-    /* State Active */
-    if(me->rootState_active == Vertex_Calculator_Active)
+    switch (me->rootState_active) {
+        /* State Active */
+        case Vertex_Calculator_Active:
         {
             if(id == Timeout_id)
                 {
@@ -237,8 +252,50 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
                                 Calculate_CenterOfRotate(me);
                                 printf("Calculate Vertex\n");
                                 Calcultate_Vertex(me);
-                                printf("Write CSV\n");
+                                /*#]*/
+                            }
+                            me->rootState_subState = Vertex_Calculator_Display;
+                            me->rootState_active = Vertex_Calculator_Display;
+                            RiCTask_schedTm(me->ric_reactive.myTask, 100, Vertex_Calculator_Timeout_Display_id, &(me->ric_reactive), NULL);
+                            res = eventConsumed;
+                        }
+                }
+        }
+        break;
+        /* State Display */
+        case Vertex_Calculator_Display:
+        {
+            if(id == Timeout_id)
+                {
+                    if(RiCTimeout_getTimeoutId((RiCTimeout*) me->ric_reactive.current_event) == Vertex_Calculator_Timeout_Display_id)
+                        {
+                            RiCTask_unschedTm(me->ric_reactive.myTask, Vertex_Calculator_Timeout_Display_id, &(me->ric_reactive));
+                            {
+                                /*#[ transition 2 */
+                                
                                 Vertex_Calculator_displayVertex(me);
+                                /*#]*/
+                            }
+                            me->rootState_subState = Vertex_Calculator_Drawing;
+                            me->rootState_active = Vertex_Calculator_Drawing;
+                            RiCTask_schedTm(me->ric_reactive.myTask, 100, Vertex_Calculator_Timeout_Drawing_id, &(me->ric_reactive), NULL);
+                            res = eventConsumed;
+                        }
+                }
+        }
+        break;
+        /* State Drawing */
+        case Vertex_Calculator_Drawing:
+        {
+            if(id == Timeout_id)
+                {
+                    if(RiCTimeout_getTimeoutId((RiCTimeout*) me->ric_reactive.current_event) == Vertex_Calculator_Timeout_Drawing_id)
+                        {
+                            RiCTask_unschedTm(me->ric_reactive.myTask, Vertex_Calculator_Timeout_Drawing_id, &(me->ric_reactive));
+                            {
+                                /*#[ transition 3 */
+                                
+                                printf("Write CSV\n");
                                 Vertex_Calculator_Write_CSV(me);
                                 /*#]*/
                             }
@@ -249,6 +306,10 @@ static RiCTakeEventStatus rootState_dispatchEvent(void * const void_me, short id
                         }
                 }
         }
+        break;
+        default:
+            break;
+    }
     return res;
 }
 
