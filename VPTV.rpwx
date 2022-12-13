@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>*</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<CGEMdiWorkspace type="e">
+			<stubList type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</stubList>
+			<isLoadOnDemand type="a">0</isLoadOnDemand>
+			<myViewsWithID type="c">
+				<IRPYRawContainer type="e">
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">156</m_nLeft>
+								<m_nTop type="a">156</m_nTop>
+								<m_nRight type="a">1258</m_nRight>
+								<m_nBottom type="a">580</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\VPTV_rpy\Default.sbsx</_hfilename>
+								<_hsubsystem type="a">Default</_hsubsystem>
+								<_hclass type="a">Vertex_Calculator</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 6df3b3fd-2864-4396-8678-1db1d9e6a215</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1065 364 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">1102</m_nRight>
+								<m_nBottom type="a">424</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\VPTV_rpy\Default.sbsx</_hfilename>
+								<_hsubsystem type="a">Default</_hsubsystem>
+								<_hclass type="a">Vertex_Calculator</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 6df3b3fd-2864-4396-8678-1db1d9e6a215</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1263 585 </_DownRight>
+						<_instanceName type="a">Vertex_Calculator[0]</_instanceName>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">26</m_nLeft>
+								<m_nTop type="a">26</m_nTop>
+								<m_nRight type="a">1031</m_nRight>
+								<m_nBottom type="a">432</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hname type="a">Model1</_hname>
+								<_hid type="a">GUID a26702f0-ecaf-4c55-b408-da112aeef27f</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">214 39 </_UpLeft>
+						<_DownRight type="a">896 283 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">1002</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">78</m_nLeft>
+								<m_nTop type="a">78</m_nTop>
+								<m_nRight type="a">1083</m_nRight>
+								<m_nBottom type="a">484</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IPanelDiagram</_hm2Class>
+								<_hname type="a">Vehicle Info</_hname>
+								<_hid type="a">GUID ff0fdb20-22cd-41fd-9e8d-b09e153bf97e</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1182 787 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+				</IRPYRawContainer>
+			</myViewsWithID>
+			<_fullName type="a">C:\Users\AJOU\Documents\GitHub\VPTV_SDP\VPTV</_fullName>
+			<_selectedPerspective type="a">Advanced</_selectedPerspective>
+			<m_SearchScopeList type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</m_SearchScopeList>
+			<bUsingBrowserCustomView type="a">0</bUsingBrowserCustomView>
+			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
+			<liCustomViewIDs type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</liCustomViewIDs>
+			<mapOslcRmCollections type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</mapOslcRmCollections>
+			<favoritesItem type="e">
+				<generation type="a">0</generation>
+				<name type="a">Favorites</name>
+				<idOrFolder type="a">folder</idOrFolder>
+			</favoritesItem>
+			
+		</CGEMdiWorkspace>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
