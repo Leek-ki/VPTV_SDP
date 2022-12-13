@@ -18,6 +18,8 @@
 #include <stdlib.h>
 /*## auto_generated */
 #include <limits.h>
+/*## auto_generated */
+#include <string.h>
 /*#[ ignore */
 #define Default_Vertex_Calculator_Init_SERIALIZE OM_NO_OP
 
@@ -154,7 +156,7 @@ static void Calcultate_Vertex(Vertex_Calculator* const me) {
     {
         /*#[ operation Calcultate_Vertex() */
         float Rotate, FLx, FLy, FRx, FRy, RLx, RLy, RRx, RRy, time;
-        int i;
+        int i,gear;
         
         FLx = -(me->W101)/2;
         FLy = me->L101;
@@ -167,9 +169,15 @@ static void Calcultate_Vertex(Vertex_Calculator* const me) {
         
         time = 0;
         
+        if(me->D_R == 0)
+        {
+        	gear = -1;
+        }
+        else
+        	gear = 1;
         
         for (i = 0; i < (me->count)*8; i += 8) {
-            Rotate = -1 * me->D_R * time * me->speed / me->Center_Of_Rotate;
+            Rotate = -1 * gear * time * me->speed / me->Center_Of_Rotate;
             (me->vertex)[i] = (float)(FLx * cos(Rotate) - FLy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
             (me->vertex)[i + 1] = (float)(FLx * sin(Rotate) + FLy * cos(Rotate) - me->Center_Of_Rotate * sin(Rotate));
             (me->vertex)[i + 2] = (float)(FRx * cos(Rotate) - FRy * sin(Rotate) + me->Center_Of_Rotate * (1-cos(Rotate)));
@@ -236,7 +244,7 @@ void Vertex_Calculator_displayVertex(Vertex_Calculator* const me) {
         
         printf("        x         y         x         y         x         y         x         y  \n");
         for (i = 0; i < (me->count)*8; i += 8) {
-            printf("%2d %9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f,%9.4f\n",(i+8)/8, (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
+            printf("%2d %9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f,%9.2f\n",(i+8)/8, (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
         }
         
     
