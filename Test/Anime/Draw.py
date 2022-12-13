@@ -45,7 +45,7 @@ def main():
         plt.show()
 
         # delay 0.4 second
-        time.sleep(0.4)
+        time.sleep(1)
 
 
 if __name__ == '__main__':

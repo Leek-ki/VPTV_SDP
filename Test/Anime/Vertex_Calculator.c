@@ -220,9 +220,8 @@ void Vertex_Calculator_Write_CSV(Vertex_Calculator* const me) {
         int i;
         
         fp = fopen("vertex.csv", "w");
-        fprintf(fp, ",x1,y1,x2,y2,x3,y3,x4,y4\n");
         for (i = 0; i < me->count*8; i += 8) {
-            fprintf(fp, "%d,%f,%f,%f,%f,%f,%f,%f,%f\n",(i+8)/8, (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
+            fprintf(fp, "%f,%f,%f,%f,%f,%f,%f,%f\n", (me->vertex)[i], (me->vertex)[i + 1], (me->vertex)[i + 2], (me->vertex)[i + 3], (me->vertex)[i + 4], (me->vertex)[i + 5], (me->vertex)[i + 6], (me->vertex)[i + 7]);
         }
         fclose(fp);
         

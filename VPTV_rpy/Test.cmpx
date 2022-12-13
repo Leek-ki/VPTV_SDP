@@ -13,7 +13,7 @@
 			<_myState type="a">139264</_myState>
 			<_name type="a">Test</_name>
 			<_modifiedTimeWeak type="a">12.13.2022::5:41:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2022::14:35:32</_modifiedTime>
+			<_modifiedTime type="a">12.13.2022::17:23:13</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -25,18 +25,18 @@
 				<IRPYRawContainer type="e">
 					
 						<IHandle type="e">
-							<_hm2Class type="a">IProfile</_hm2Class>
-							<_hfilename type="a">$OMROOT\Settings\UMLPerspectives\UMLPerspectives.sbs</_hfilename>
-							<_hname type="a">UMLPerspectives</_hname>
-							<_hid type="a">GUID d24d9192-bc4f-48a2-a4e1-fdaebbdfa6b6</_hid>
-						</IHandle>
-					
-					
-						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
 							<_hfilename type="a">.\Default.sbsx</_hfilename>
 							<_hname type="a">Default</_hname>
 							<_hid type="a">GUID 6795cd77-ef74-4e78-97bd-87247fdf376f</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">$OMROOT\Settings\UMLPerspectives\UMLPerspectives.sbs</_hfilename>
+							<_hname type="a">UMLPerspectives</_hname>
+							<_hid type="a">GUID d24d9192-bc4f-48a2-a4e1-fdaebbdfa6b6</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
